@@ -1,0 +1,140 @@
+.dk-footer {
+    background-color: #4CAF50;
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+    }
+    li {
+        display: flex;
+        justify-content: space-around;
+    }
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+}
+main {
+    height: 60rem;
+    background-color: rgba(169, 169, 169, 0.1); /* Couleur grise semi-transparente */
+    padding: 20px; /* Ajoutez un espace intérieur pour le contenu */
+
+        
+      
+ }
+
+.parallax {
+    background-image:url("../img/background1.avif");
+      /* Full height */
+ min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+    background-image:url("../img/bgbas.avif");
+      /* Full height */
+ min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    overflow: hidden;
+    img {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+
+.navbar-logo {
+    color: white;
+    width: 4rem;
+    height: 4rem;
+}
+
+.navbar-search {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.navbar-search input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar-links a:hover {
+    background-color: lightgreen;
+  }
+
+.burger-menu {
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #4CAF50;
+    }
+
+    .navbar-links.show {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+.footer-social-link {
+    padding-left: 8rem;
+    padding-right: 8rem;
+
+}
+
+}
+.cardo {
+    list-style: none;
+    background-color: green;
+}
